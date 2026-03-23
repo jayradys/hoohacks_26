@@ -41,10 +41,10 @@
 /* ---------------- A2DP config ---------------- */
 
 // Replace with your actual AirPods name for logs (name matching is optional here)
-#define TARGET_DEVICE_NAME "Akshaj's AirPods Pro"
+#define TARGET_DEVICE_NAME "AirPods Pro"
 
 // You MUST replace this by your AirPods MAC address from a BT scan/log
-static esp_bd_addr_t s_peer_bd_addr = {0x40, 0xDA, 0x5C, 0x8E, 0x51, 0x0B};
+static esp_bd_addr_t s_peer_bd_addr = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
 
 // Audio tone parameters
 #define TONE_SAMPLE_RATE 44100
