@@ -195,7 +195,7 @@ void app_main(void)
     }
 
     /* Set ESP32 device name (this is what AirPods will see) */
-    esp_bt_dev_set_device_name("ESP32_Akshaj_A2DP");
+    esp_bt_dev_set_device_name("ESP32_A2DP");
 
     /* Register A2DP source callbacks */
     esp_a2d_register_callback(&bt_app_a2d_cb);
